@@ -1,7 +1,7 @@
-import UserDetails from './UserDetails';
+//import UserDetails from './components/UserDetails';
 
-function UserInfo({ userData }) {
-  return <UserDetails userData={userData} />;
-}
+// function UserInfo({ userData }) {
+//   return <UserDetails userData={userData} />;
+// }
 
-export default UserInfo;
+// export default UserInfo;
