@@ -1,11 +1,9 @@
-const UserProfile = (props) => {
-  return (
-    <div>
-      <h2>{props.name}</h2>
-      <p>Age: {props.age}</p>
-      <p>Bio: {props.bio}</p>
-    </div>
-  );
-};
+// import UserInfo from './UserInfo';
 
-export default UserProfile;
+function ProfilePage({ userData }) {
+  return <UserInfo userData={userData} />;
+  useContext(UserContext)
+  UserContext("value")
+}
+
+export default ProfilePage;
