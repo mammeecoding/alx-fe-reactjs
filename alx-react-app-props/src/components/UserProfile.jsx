@@ -2,7 +2,7 @@
 
 function ProfilePage({ userData }) {
   return <UserInfo userData={userData} />;
-  useContext(UserContext)
+  useContext("react)
   UserContext("value")
 }
 
