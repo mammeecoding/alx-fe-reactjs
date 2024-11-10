@@ -1,7 +1,7 @@
 React.createContext("react")
 function UserContext({ userData }) {
   return (
-    UserContext.provider(value)
+    UserContext.Provider(userData ,"value")
   );
 }
 
