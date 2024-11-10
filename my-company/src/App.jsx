@@ -6,6 +6,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 Routes
 Route
 BrowserRouter
+element.path
 import Home from './Home'
 import About from './About'
 import Services from './Services'
