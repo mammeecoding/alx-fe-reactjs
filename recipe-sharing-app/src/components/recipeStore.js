@@ -7,9 +7,13 @@ const useRecipeStore = create(set => ({
   setRecipes: (recipes) => set({ recipes })
 
     const SearchBar = () => {
-  const setSearchTerm = useRecipeStore(state => state.setSearchTerm);
+  const setSearchTerm = useRecipeStore(state => state.setSearchTerm, searchTerm);
 
   return (
+     <div>
+    <updateRecipe/>
+    </deleteRecipe>
+    </div>
     <input
       type="text"
       placeholder="Search recipes..."
@@ -18,11 +22,4 @@ const useRecipeStore = create(set => ({
   );
 };
     
-    return(
-  <div>
-    
-    <updateRecipe/>
-    </deleteRecipe>
-  </div>
- 
 export default useRecipeStore;
