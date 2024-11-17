@@ -25,6 +25,17 @@ const useRecipeStore = create(set => ({
       ))}
     </div>
   );
+   return (
+    <div>
+      <h2>Recomendations</h2>
+      {recomendations.map(recipe => (
+        <div key={recipe.id}>
+          <h3>{recipe.title}</h3>
+          <p>{recipe.description}</p>
+        </div>
+      ))}
+    </div>
+  );
 };
   
   return (
