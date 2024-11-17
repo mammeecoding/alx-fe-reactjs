@@ -6,6 +6,8 @@ import './App.css'
 import RecipeList from './components/RecipeList'
 import AddRecipeForm from './components/AddRecipeForm'
 import RecipeDetails from './components/RecipeDetails'
+import FavoritesList from './components/FavoritesList'
+import RecommendationsList from './components/RecommendationaList'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -37,6 +39,8 @@ function App() {
       <RecipeList/>
       <AddRecipeForm/>
       <RecipeDetails/>
+      <FavoritesList/>
+      <RecommendationsList/>
     </>
   )
 }
