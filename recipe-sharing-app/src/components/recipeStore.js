@@ -1,24 +1,14 @@
 import create from 'zustand'
 import DeleteRecipe from /DeleteRecipe.jsx
+import updateRecipe from /updateRecipe.jsx
 const useRecipeStore = create(set => ({
   recipes: [],
   addRecipe: (newRecipe) => set(state => ({ recipes: [...state.recipes, newRecipe] })),
   setRecipes: (recipes) => set({ recipes })
-  // RecipeDetails component
-  import { useRecipeStore } from './recipeStore';
-
-  const RecipeDetails = ({ recipeId }) => {
-    const recipe = useRecipeStore(state =>
-      state.recipes.find(recipe => recipe.id === recipeId)
-    );
-
-    return (
-      <div>
-        <h1>{recipe.title}</h1>
-        <p>{recipe.description}</p>
-        {/* Render EditRecipeForm and DeleteRecipeButton here */}
-      </div>
-    );
-  };
-}));
+    return(
+  <div>
+    <updateRecipe/>
+    </deleteRecipe>
+  </div>
+ 
 export default useRecipeStore;
