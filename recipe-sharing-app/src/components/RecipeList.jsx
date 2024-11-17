@@ -12,7 +12,7 @@
             <p>{recipe.description}</p>
           </div>
         ))}
-        link: "react-router-dom"
+        Link: "react-router-dom"
       </div>
     );
   };
