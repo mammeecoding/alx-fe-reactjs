@@ -31,6 +31,9 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+      path:"./"
+      element:Router{Route.Routes}
+      "react-router-dom"
       <RecipeList/>
       <AddRecipeForm/>
       <RecipeDetails/>
