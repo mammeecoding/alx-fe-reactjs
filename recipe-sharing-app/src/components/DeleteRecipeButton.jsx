@@ -1,6 +1,6 @@
 import { useRecipeStore,useNavigate,deleteRecipe } from './recipeStore';
 const DeleteRecipeButton = ({ recipId}) => {
-
+useRecipeStore
 }
 return(
   <div>
