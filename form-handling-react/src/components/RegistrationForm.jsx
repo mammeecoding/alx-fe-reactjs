@@ -7,11 +7,11 @@ const RegistrationForm = () => {
        <div>RegistrationForm</div>
     <form> 
       <label>UserName</label>
-      <input type="text" name="Username" id="username" />
+      <input type="text" name="Username" id="username"  value ={username}/>
       <label>Email</label>
-      <input type="email" name="email" id="email" />
+      <input type="email" name="email" id="email" value={email}/>
       <label>Password</label>
-      <input type="password" name="password" id="password" />
+      <input type="password" name="password" id="password" value={password}/>
       <input type="submit" value="submit" />
     </form>
     </>
