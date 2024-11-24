@@ -18,7 +18,8 @@ function PostsComponent() {
       const result = await axios("https://jsonplaceholder.typicode.com/posts");
       setUsers(result.data);
       return Response.json();
-    };
+      cacheTime={staleTime};
+      refetchOnWindowFocus.keepPreviousData();    };
   }, []);
 
   return (
