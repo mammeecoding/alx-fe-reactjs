@@ -1,4 +1,6 @@
 import React from "react";
+import profile from "./components/profile"
+import ProtectedRoute from "./components/ProtectedRoute"
 import {
   BrowserRouter as Router,
   Switch,
@@ -24,6 +26,8 @@ export default function App() {
             </li>
           </ul>
         </nav>
+        <profile/>
+        <ProtectedRoute/>
 
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
