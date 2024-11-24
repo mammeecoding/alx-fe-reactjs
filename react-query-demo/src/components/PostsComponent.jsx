@@ -30,7 +30,7 @@ function PostsComponent() {
           <li key={user.id}>{user.title}</li>
         ))}
       </ul>
-      <button>Refetch your data</button>
+      <button onClick={Post}>Refetch your data</button>
     </div>
   );
 }
