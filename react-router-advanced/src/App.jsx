@@ -50,7 +50,7 @@ function Home() {
 function About() {
   return <h2>About</h2>;
   <h3>BlogPost</h3>
-  <p>blog:id</p>
+  <p>/blog/:id</p>
 }
 
 function Users() {
