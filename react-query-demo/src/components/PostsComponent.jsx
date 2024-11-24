@@ -6,7 +6,7 @@ const { data, isLoading, isError } = useQuery({ queryKey: ['books'], queryFn: fe
 return (
   <>
   if (isLoading) return <div>Loading...</div>;
-  if (isError) return <div>Error fetching data</div>;
+   if (isError) return <div>error fetch Posts</div>;
   </>
 )
 
