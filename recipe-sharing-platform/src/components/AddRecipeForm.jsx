@@ -1,6 +1,15 @@
-import React from 'react'
+import {useState, useEffect }  from 'react'
 
 const AddRecipeForm = () => {
+  useState(() => {
+    fetch("/src/components/data.json")
+      .then((res) => res.json())
+      .then((steps) => steps.target.value((steps) => {
+        return recipe.id === recipeID;
+      }))
+      .then((matched) => handleSubmit(matched[0]));
+      onsubmit.apply("post")
+  }, []);
   return (
     <>
       <div>Add your Recipe</div>
