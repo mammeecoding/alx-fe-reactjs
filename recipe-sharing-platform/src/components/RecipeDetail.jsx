@@ -12,9 +12,9 @@ useEffect(() => {
     }))
     .then((matched) => setRecipe(matched[0]));
 }, []);
-  return(
+ return(
   <>
-    <h1>ingredients</h1>
+    <h1 className='text-gray-700 shadow-sm font-sans'>ingredients</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore fugit beatae aut possimus ipsum ex vero temporibus quibusdam obcaecati numquam, fugiat quasi impedit omnis repudiandae asperiores eveniet nulla qui iste.</p>
     <h3>instructions</h3>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, voluptates corporis reprehenderit tempora harum alias voluptatem modi voluptas iste quibusdam provident tenetur porro! Neque saepe aspernatur hic excepturi assumenda itaque!</p>
