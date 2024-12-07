@@ -8,7 +8,7 @@ const AddRecipeForm = () => {
         return recipe.id === recipeID;
       }))
       .then((matched) => handleSubmit(matched[0]));
-      onsubmit.apply("post")
+      onSubmit.apply("post")
   }, []);
   return (
     <>
