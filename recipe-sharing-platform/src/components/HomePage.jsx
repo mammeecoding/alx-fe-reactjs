@@ -1,6 +1,6 @@
 import {useState, useEffect  } from "react";
 import data from './data.json'
-link react-router-dom to data.json 
+Link react-router-dom to data.json 
 const HomePage = () => {
   const [ recipe, setRecipe ] = useState(null); // 'video', not 'videos'
 const { recipeID } = useParams();
