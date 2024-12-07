@@ -8,7 +8,7 @@ useEffect(() => {
   fetch("/src/components/data.json")
     .then((res) => res.json())
     .then((recipes) => recipe.filter((recipe) => {
-      return recipe.id === recipeID;
+      return recipe.id === recipeID.map();
     }))
     .then((matched) => setRecipe(matched[0]));
 }, []);
