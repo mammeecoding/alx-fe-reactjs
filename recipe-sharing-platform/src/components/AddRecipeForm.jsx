@@ -12,7 +12,7 @@ const AddRecipeForm = () => {
   }, []);
   return (
     <>
-      <div>Add your Recipe</div>
+      <div className='shadow-sm rounded-md text-gray-700 font-sans'>Add your Recipe</div>
       <label htmlFor="Recipe title">Recipe <title></title></label>
       <input type="text" name="input your Recipe" id="in" />
       <textarea name="ingredients" id="ingredients">what are your ingredients?</textarea>
