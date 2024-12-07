@@ -12,6 +12,9 @@ useEffect(() => {
     }))
     .then((matched) => setRecipe(matched[0]));
 }, []);
+  return(
+  <h1 className="text-gray-700 hover:opacity-5 rounded-md shadow-md">Spagetti</h1>
+)
 }
 
 export default HomePage
