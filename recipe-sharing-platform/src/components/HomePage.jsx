@@ -12,8 +12,8 @@ useEffect(() => {
     }))
     .then((matched) => setRecipe(matched[0]));
 }, []);
-  return(
-  <h1 className="text-gray-700 hover:opacity-5 rounded-md shadow-md">Spagetti</h1>
+ return(
+  <h1 className="text-gray-700 hover:opacity-5 rounded-md shadow-md grid grid-cols-1:lg grid-cols-2:md grid-cols-3:sm ">Spagetti</h1>
 )
 }
 
