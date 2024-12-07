@@ -19,7 +19,7 @@ const AddRecipeForm = () => {
       <textarea name="ingredients" id="ingredients">How do you prepare your recipe?</textarea>
       <input type="submit" value="Post" />
     </>
-    
+    "validate", "errors", "setErrors", "preventDefault"
   )
 }
 
